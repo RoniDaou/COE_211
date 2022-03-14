@@ -10,10 +10,10 @@ public class Calculator{
 		Scanner scan=new Scanner(System.in);
 		System.out.println("Enter the value of the first integer: ");
 		num1=scan.nextInt();
-		System.out.println("Enter the value of the second integer: ");
-		num2=scan.nextInt();
 		System.out.println("Choose an operation: divide (/),multiply(x),subtract(-),or add(+)");
         	String operation = scan.next();
+		System.out.println("Enter the value of the second integer: ");
+		num2=scan.nextInt();
         	switch(operation){
 		
 		case "/":
